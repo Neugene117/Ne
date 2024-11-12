@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <span>paint<span style="color: red;">brush</span></span>
+      <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li class="dropdown">
+          <a href="">Product Category</a>
+          <div class="dropdown-content">
+            <a href="">Paints</a>
+            <a href="">Brushes</a>
+            <a href="">Canvases</a>
+            <a href="">Easels</a>
+          </div>
+        </li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+      <a href=""><img src="./cart.png" alt="Cart" width="30px" /></a>
+    </nav>
+
+    <!-- Animated Images Section -->
+    <!-- Animated Images Section -->
+    <div class="two">
+      <!-- <img src="" alt="Image 3"> -->
+      <h1>WELCOME TO OUR ARTIST MARKET</h1>
+      <h2>WELCOME TO OUR ARTIST MARKET</h2>
+    </div>
+
+    <!-- Product Cards Section -->
+    <section class="card-container">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="./paints-images/design.PNG" alt="Acrylic Paints" />
+        <div class="card-content">
+          <h3 class="card-title">Acrylic Paints Set</h3>
+          <p class="card-description">
+            A set of vibrant acrylic paints perfect for beginners and
+            professionals.
+          </p>
+          <p class="card-price">$25.00</p>
+          <a href="#" class="card-button">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="./brushes/brushthree.PNG" alt="Brush Set" />
+        <div class="card-content">
+          <h3 class="card-title">Premium Brush Set</h3>
+          <p class="card-description">
+            High-quality brushes for smooth and precise strokes on any canvas.
+          </p>
+          <p class="card-price">$18.00</p>
+          <a href="#" class="card-button">Buy Now</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="./canvas/Capture.PNG" alt="Canvas Pack" />
+        <div class="card-content">
+          <h3 class="card-title">Canvas Pack</h3>
+          <p class="card-description">
+            Pack of 5 canvases, ideal for creating beautiful landscapes and
+            portraits.
+          </p>
+          <p class="card-price">$30.00</p>
+          <a href="#" class="card-button">Buy Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <!-- Footer Links Section -->
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product Category</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Footer Address Section -->
+        <div class="footer-address">
+          <h3>Contact Us</h3>
+          <p>123 Art Street, Creativity City</p>
+          <p>Rwanda, Western Province</p>
+        </div>
+
+        <!-- Footer Email Section -->
+        <div class="footer-email">
+          <h3>Email</h3>
+          <p><a href="mailto:info@artmarket.com">info@artmarket.com</a></p>
+          <p>
+            <a href="mailto:support@artmarket.com">support@artmarket.com</a>
+          </p>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2024 Artist Market. All rights reserved.</p>
+    </footer>
+    <script>
+      document
+        .querySelector(".menu-toggle")
+        .addEventListener("click", function () {
+          document.querySelector("nav ul").classList.toggle("show");
+        });
+    </script>
+  </body>
+</html>
